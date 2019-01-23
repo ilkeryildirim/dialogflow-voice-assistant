@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">google-assistant-chatbot</string>
+    <string name="edit_hint">Bir şey yazın..</string>
+    <string name="speech_prompt">Bir şey söyleyin..</string>
+    <string name="speech_not_supported">Telefonunuz mikrofon özelliğini desteklememektedir.</string>
+    <string name="anlasilmadi">Dediğinizi anlayamadım. Lütfen tekrar söyleyin.</string>
+</resources>
