@@ -45,7 +45,7 @@
                 scrollview.fullScroll(ScrollView.FOCUS_DOWN)
             }
 
-            val queryEditText = findViewById<EditText>(R.id.edittext);
+            val queryEditText = findViewById<EditText>(R.id.edittext)
             queryEditText.setOnKeyListener { view, keyCode, event ->
                 if (event.action === KeyEvent.ACTION_DOWN) {
                     when (keyCode) {
@@ -64,7 +64,7 @@
 
             microphone.setOnClickListener(this::sendMicrophoneMessage)
 
-            initBot()
+            initAsisstant()
 
             initAsisstantVoice()
 
@@ -83,7 +83,7 @@
 
         }
 
-        private fun initBot() {
+        private fun initAsisstant() {
             try {
                 val stream = resources.openRawResource(R.raw.asistan)
                 val credentials = GoogleCredentials.fromStream(stream)
@@ -147,7 +147,7 @@
                 else -> layout = appendBotText()
             }
             layout.isFocusableInTouchMode = true
-            linear_chat.addView(layout) // move focus to text view to automatically make it scroll up if softfocus
+            linear_chat.addView(layout)
             val tv = layout.findViewById<TextView>(R.id.chatMsg)
             tv.setText(message)
             Util.hideKeyboard(this)
@@ -170,7 +170,6 @@
         fun onResult(response: DetectIntentResponse?) {
             try {
                 if (response != null) {
-                    // process aiResponse here
                     var botReply:String=""
                     if(response.queryResult.fulfillmentText==" ")
                         botReply= response.queryResult.fulfillmentMessagesList[0].text.textList[0].toString()
