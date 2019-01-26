@@ -9,13 +9,6 @@ app.use(express.static(__dirname + '/bower_components'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cookieParser());
-// app.use(session({
-//     key: 'user_sid',
-//     secret: 'sec_rotaboo',
-//     resave: false,
-//     saveUninitialized: false,
-//     cookie: { expires: 6000000 }
-// }));
 
 app.get('/', function(req, res) {
     return res.json('API Online');
