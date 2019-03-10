@@ -13,3 +13,10 @@ alt="link" width="450" height="300" border="10" /></a>
 
 <a href="https://medium.com/@fevziomurtekin/kotlin-ile-dialogflow-kullanarak-sesli-asistan-yap%C4%B1m%C4%B1-205ef81e78d0?_branch_match_id=580614660615400010" target="_blank"><img src="https://cdn-images-1.medium.com/max/720/1*HDxwPlSqkUnpCef4sUk4zg.png" 
 alt="Kotlin ile Dialogflow kullanarak Sesli Asistan yapımı" width="575" height="222" border="10" /></a>
+
+
+# Dev.to
+
+<a href="https://dev.to/fevziomurtekin/voice-assistant-using-dialogflow-with-kotlin-3p98" target="_blank"><img src="https://cdn-images-1.medium.com/max/1600/1*8fAzi716hrEPupK-3D-lCQ.png" 
+alt="Voice Assistant using Dialogflow with Kotlin" width="575" height="222" border="10" /></a>
+
