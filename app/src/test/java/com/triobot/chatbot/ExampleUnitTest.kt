@@ -1,4 +1,4 @@
-package com.fevziomurtekin.chatbot
+package com.triobot.chatbot
 
 import org.junit.Test
 

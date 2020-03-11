@@ -1,12 +1,12 @@
 {
-  "type": "YOUR-TYPE",
-  "project_id": "YOUR-PROJECT-ID",
-  "private_key_id": "YOUR-PRIVATE-KEY-ID",
-  "private_key": "YOUR-PRIVATE-KEY",
-  "client_email": "YOUR-CLIENT-EMAIL",
-  "client_id": "YOUR-CLIENT-ID",
-  "auth_uri": "YOUR-AUTH-URI",
-  "token_uri": "YOUR-TOKEN-URI",
-  "auth_provider_x509_cert_url": "YOUR-AUTH-PROVIDER",
-  "client_x509_cert_url": "YOUR-CERT-URL"
+  "type": "service_account",
+  "project_id": "triochatbox",
+  "private_key_id": "438045a7c8640874ff2e6fb5acfd4b80dcbfc058",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDKTaiJ0Oleglio\nCeLsnsPKEyevM8pWFmXuQDjW4fXSkdjtxuXq2e7X5aicPz3br2u5ugZHOlaOWL/E\n1rw8Pqv5FfvBcXk3IpBsz8bfRpnYoOm6AuRtCOTV3xiaJlXGqVNXRoymf2vEj+y9\njHqUtM4ELpAk/tE/VPlDWdE3fp3l8XFl1m/k60HKx/ep7ZA7+Z3jnIMr1wf/GRnO\nt/YUvEE3+eNX4ZXPhZYlAdwDnBAZ2k/09mZmQQ20hWCDJleYHW6aCQo0mYiAzx9L\nevJ4J1AIWW0hjlk0GLL3beCHHd818UHJzie9IHksDWerb40CSWVnRQyfGFudnR8a\nJTeZePtjAgMBAAECggEAVQXZYP5/rhw7FXh+OjMplyqAwbYTAiZMtZqhKNJzpYlt\ncdVneNIZ+vvG5s//d+5caITBsbrXeODcy+Xx26H9VeTC15SQvLbWmxyh+OGrs+tA\n/8/KX/becfJe3R5ia2lroOECKNGhoc1ZUnqRZCEu+nv1Uc8UczkLv54me1vIEcSs\ny0Jr/9dlRZ+j6SNmryQAfZjwjH0Id5eiAoyad9RjTE0s1xxLk9yd1XSA0MgXCnVC\neptoMdEUKqZyrRgGDGHQgR4htfSltu1fnAT65HNRjeybgnDy5EZeB2AJvHSIdr4H\nwn+Pj5Fvf0zKQw044SRN8yhhdZlzGkGpEuI6Eo5yaQKBgQD7Jwg8FcZNXNQyDdNZ\nLqzb/Ue/WU/HahHCRiOC5pudm6LpNCri6eyGeq5HLyEeWu2hxajIlBdVEMvYVTSx\n3dk+Xwn8TjA3RoBsIeH0nJPy2yDNzKDyPLqmltVuffeCj2JJgMoekiZkfh2ss4Wi\n1UHMT1pM8EbTNHodrfOIdzXwOwKBgQDONUIVGRnM7Gv7BtTk/cy52sFu/j+Val8D\n05k2kBPnlCzFHMPNWhUppttG5NbZUKcyNnrBrAaKyceQPfE/E5wlm4uPJaIV+a/3\nHWEa9FatHFwSYcNnBRyCwylv16LaCeWfFjIaV7vqJpkiSnw35sfuPCqreiEjLc7m\n9zsO04PW+QKBgBbkyfVgLsFikt01MWzRumQbRG0G4STWYGQLLLWD++9z/nevj7E7\njZn8mOJYQ3aW5051zBrslOvmKg7ARZtpE6KB21Eqd26yeIZi2EwJ8dqTavwXiRxL\nuN/yo+X8iZFXLKhymvoKbIGAlYfmnWnocqUDHsIgrPQXtoH6F1b7Nul9AoGBAL7r\nZIGwOckX5GoIyzgxHEm/lnSzhh9K2ynp0eNIxoUVFdZyaX9JtmpYCJG88odGO2cs\nNb/3DB+X7uNH1oM2Hs5bE323tDhwc1FyrCOOsmmY5k5GoepSOzF+jHD2z9rcavM+\nU6k8Lcn/bqznFdeUHuweXMtjSicOFJCXuuBhSaHRAoGBANZw0mg7DABdaR8MEODM\n88i8XuqdHfZwYb2i5GJccL4wxq6U04ZkPuR07/2o+bfMu/WahSmE5m0mhyQKoalX\nJVoagkyGPJsDLf81ZWsBqF8v/NQgqGSE3Ocxljx04RAJaH46KbrOQMOcC2DKV+gH\nqbkGni4hplOrYasZsmX3xxoV\n-----END PRIVATE KEY-----\n",
+  "client_email": "triomobil@triochatbox.iam.gserviceaccount.com",
+  "client_id": "101168409359930342867",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/triomobil%40triochatbox.iam.gserviceaccount.com"
 }

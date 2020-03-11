@@ -5,43 +5,32 @@
         android:layout_margin="4dp">
 
     <LinearLayout
-            android:id="@+id/botMsgLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
 
-        <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:src="@drawable/robot">
-
-        </ImageView>
-
         <LinearLayout
 
+                android:layout_margin="4dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start|center_vertical"
-                android:layout_marginTop="4dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginBottom="4dp"
-                android:background="@drawable/bubble_bg"
+                android:background="@drawable/opinion_item_bg"
                 android:orientation="horizontal">
 
             <TextView
-                    android:id="@+id/chatMsg"
+                    android:id="@+id/tvOpinion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="7.5dp"
+                    android:padding="8dp"
                     android:text="abcdefgh"
-                    android:textColor="@android:color/black"
-                    android:textSize="15sp" />
+                    android:textColor="#5fc9f8"
+                    android:textSize="18sp" />
 
             <FrameLayout
                     android:id="@+id/container"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp">
+                    android:layout_height="wrap_content">
 
             </FrameLayout>
 

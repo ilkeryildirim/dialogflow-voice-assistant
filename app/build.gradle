@@ -5,6 +5,10 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.fevziomurtekin.chatbot"
@@ -44,4 +48,7 @@ dependencies {
     // Java v2
     implementation 'com.google.cloud:google-cloud-dialogflow:0.67.0-alpha'
     implementation 'io.grpc:grpc-okhttp:1.15.1'
+
+    implementation 'com.github.arcadefire:nice-spinner:1.4.4'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
 }

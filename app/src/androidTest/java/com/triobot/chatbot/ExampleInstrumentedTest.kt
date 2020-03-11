@@ -1,4 +1,4 @@
-package com.fevziomurtekin.chatbot
+package com.triobot.chatbot
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
